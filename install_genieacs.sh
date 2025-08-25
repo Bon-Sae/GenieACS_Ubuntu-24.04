@@ -133,3 +133,4 @@ echo -e "  Instalasi GenieACS selesai! 🎉"
 echo -e "  Akses UI di: ${YELLOW}http://$(hostname -i):3000${NC}"
 echo -e "==========================================${NC}"
 
+reboot now
