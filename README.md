@@ -1,6 +1,10 @@
 # GenieACS_Ubuntu-24.04
-
-
+#
+try install first
+```
+sudo apt install -y sudo wget git curl
+```
+next . . .
 ```
 git clone https://github.com/enxbon/GenieACS_Ubuntu-24.04.git
 ```
