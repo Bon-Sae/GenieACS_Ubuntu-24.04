@@ -123,9 +123,9 @@ WantedBy=multi-user.target
 EOF
 
 echo -e "${CYAN}=== Reload systemd & enable service ===${NC}"
-sudo systemctl daemon-reload
 sudo systemctl enable genieacs-cwmp genieacs-nbi genieacs-fs genieacs-ui
 sudo systemctl start genieacs-cwmp genieacs-nbi genieacs-fs genieacs-ui
+sudo systemctl daemon-reload
 
 echo
 echo -e "${GREEN}=========================================="
