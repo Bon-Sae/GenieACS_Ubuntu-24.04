@@ -14,4 +14,4 @@ cd GenieACS_Ubuntu-24.04
 ```
 bash install_genieacs.sh
 ```
-`wait for loading . . . 🫣`
+`wait for loading . . . :D`
