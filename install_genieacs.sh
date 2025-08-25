@@ -96,8 +96,14 @@ echo -e "${CYAN}=== Reload systemd & enable services ===${NC}"
 sudo systemctl daemon-reload
 sudo systemctl enable --now genieacs-{cwmp,nbi,fs,ui}
 
+cd GenieACS_Ubuntu-24.04
+rm install.sh
+mv uninstall_genieacs.sh /root/
+rmdir GenieACS_Ubuntu-24.04
 echo
 echo -e "${GREEN}=========================================="
 echo -e "  Instalasi GenieACS selesai! ??"
 echo -e "  Akses UI di: ${YELLOW}http://$(hostname -I | awk '{print $1}'):3000${NC}"
+echo -e "  Username : ${YELLOW}admin${NC}"
+echo -e "  Password : ${YELLOW}admin${NC}"
 echo -e "==========================================${NC}"
