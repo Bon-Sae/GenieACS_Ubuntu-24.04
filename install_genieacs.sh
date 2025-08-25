@@ -130,5 +130,6 @@ sudo systemctl start genieacs-cwmp genieacs-nbi genieacs-fs genieacs-ui
 echo
 echo -e "${GREEN}=========================================="
 echo -e "  Instalasi GenieACS selesai! 🎉"
-echo -e "  Akses UI di: ${YELLOW}http://<server-ip>:3000${NC}"
+echo -e "  Akses UI di: ${YELLOW}http://$(hostname -i):3000${NC}"
 echo -e "==========================================${NC}"
+
