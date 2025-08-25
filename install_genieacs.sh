@@ -46,7 +46,7 @@ echo -e "${CYAN}=== Clone GenieACS ===${NC}"
 cd /opt
 sudo git clone https://github.com/genieacs/genieacs.git
 cd genieacs
-sudo npm install --legacy-peer-deps
+sudo npm install -g npm@11.5.2
 
 echo -e "${CYAN}=== Buat service systemd ===${NC}"
 
