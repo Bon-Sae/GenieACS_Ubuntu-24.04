@@ -101,9 +101,6 @@ echo
 echo -e "${GREEN}=========================================="
 echo -e "  Instalasi GenieACS selesai! ??"
 echo -e "  Akses UI di: ${YELLOW}http://$(hostname -I | awk '{print $1}'):3000${NC}"
-echo -e "  Username : ${YELLOW}admin${NC}"
-echo -e "  Password : ${YELLOW}admin${NC}"
+echo -e "  ${GREEN}Username : ${YELLOW}admin${NC}"
+echo -e "  ${GREEN}Password : ${YELLOW}admin${NC}"
 echo -e "==========================================${NC}"
-
-mv GenieACS_Ubuntu-24.04 GenieACS
-rm install.sh
