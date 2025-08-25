@@ -24,6 +24,7 @@ sleep 1
 
 echo -e "${CYAN}=== Update sistem ===${NC}"
 sudo apt update && sudo apt upgrade -y
+apt install wget gnupg curl sudo -y
 
 echo -e "${CYAN}=== Install MongoDB ===${NC}"
 curl -fsSL https://pgp.mongodb.com/server-7.0.asc | sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor
