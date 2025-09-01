@@ -2,6 +2,9 @@
 #
 **try install first**
 ```
+sudo apt update
+```
+```
 sudo apt install -y sudo wget git curl
 ```
 **next . . .**
