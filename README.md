@@ -1,4 +1,4 @@
-# GenieACS_Ubuntu-24.04
+# GenieACS tested on Ubuntu24.04 + Ubuntu25.04
 #
 **try install first**
 ```
@@ -19,4 +19,4 @@ cd GenieACS_Ubuntu-24.04
 ```
 bash install_genieacs.sh
 ```
-`wait for loading . . . :D`
+`please waiting for loading . . . :D`
