@@ -9,8 +9,7 @@ sudo apt update
 sudo apt install -y sudo wget git curl
 ```
 **next . . .**
-install NodeJS v20.19.4
-install NodeJS v7
+- install NodeJS v20.19.4, install MongoDB v7, GenieACS v1.2
 ```
 git clone https://github.com/Bon-Sae/GenieACS_Ubuntu-24.04.git
 ```
@@ -21,3 +20,4 @@ cd GenieACS_Ubuntu-24.04
 bash install_genieacs.sh
 ```
 `please waiting for loading . . . :D`
+- akses [http://<ip_server>:3000/](http://<ip_server>:3000/)
